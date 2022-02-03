@@ -1,0 +1,196 @@
+@import url("./style.css");
+/* 
+==========================
+Mission, Vision and Culture Start
+==========================
+ */
+
+ .banner .content{
+     font-weight: bolder;
+     font-size: var(--eighteen);
+ }
+
+
+.about .wrapper-color{
+    padding: 10rem 0;
+}
+
+.about .about-content .about-heading{
+    font-style: normal;
+    font-weight: bold;
+    font-size: var(--sixty);
+    line-height: 7rem;
+    color: var(--primary-color);
+    text-transform: uppercase;
+}
+.about .about-content .about-text{
+    font-style: normal;
+    font-weight: 300;
+    font-size: var(--sixteen);
+    line-height: 3.5rem;
+    color: var(--black-color);
+    padding-top: 4.2rem;
+}
+
+.about .about-content .list-content{
+    padding-top: 4.2rem;
+}
+
+.about .about-content .list-content .bullet-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: var(--sixteen);
+    line-height: 1.9rem;
+    color: var(--black-color);
+}
+.about .about-content .list-content li{
+    padding-top: 1rem;
+}
+.about .about-content .list-content li::marker{
+    color: var(--primary-color);
+    font-size: var(--thirty-two);
+}
+
+/* Vision */
+.about .vision-reverse{
+    flex-direction: row-reverse;
+}
+.about .about-content .vision{
+    color: var(--secondary-color);
+}
+.about .about-content .vision-list li::marker{
+    color: var(--secondary-color);
+    font-size: var(--thirty-two);
+}
+/* 
+==========================
+Mission, Vision and Culture End
+==========================
+ */
+
+ /* 
+==========================
+Our Team Start
+==========================
+ */
+ .our-team .cards-div{
+     padding: 10rem 0;
+ }
+.our-team .cards-div .card{
+    width: 30rem;
+    border: 0;
+}
+.our-team .cards-div .card .card-image-wrapper{
+    /* width: 25rem;
+    height: 27.3rem; */
+
+}
+.our-team .cards-div .card .member-details{
+    background-color: var(--secondary-color);
+    padding: 1.3rem 0;
+}
+.our-team .cards-div .card .member-details .member-name{
+    font-style: normal;
+    font-weight: 500;
+    font-size: var(--eighteen);
+    line-height: 2.1rem;
+    color: var(--white-color);
+}
+.our-team .cards-div .card .member-details .experience{
+    font-style: normal;
+    font-weight: 300;
+    font-size: var(--fourteen);
+    line-height: 1.6rem;
+    color: var(--white-color);
+    padding-top: 1.6rem;
+}
+
+ /* 
+==========================
+Our Team End
+==========================
+ */
+ /* ==============================================Responsive MEDIA QUERY============================================== */
+/* 
+==========================
+Bootstrap Responsive Start
+==========================
+*/
+
+/* APPLY TILL min-width */
+@media(min-width:992px) {
+    
+}
+
+/* APPLY FROM max-width */
+@media(max-width:992px) {
+    /* FONT SIZE */
+    html{
+        font-size: 55%;
+    }
+
+    .our-team .cards-div .card{
+        width: 27rem;
+    }
+    
+}
+/* 
+==========================
+Bootstrap Responsive End
+==========================
+*/ 
+@media(max-width:1500px) {
+    
+}
+
+@media(max-width:1350px) {
+    
+}
+/* =====Desktops, large screens===== */
+@media(max-width:1200px) {
+    
+    
+}
+@media(max-width:1115px) {
+    
+}
+
+/* =====Small screens, laptops===== */
+@media(max-width:1024px) {
+}
+
+@media(max-width:861px) {
+    
+}
+
+/* =====iPads, Tablets===== */
+@media(max-width:768px) {
+    /* FONT SIZE */
+    html{
+        font-size: 50%;
+    }
+
+    .our-team .cards-div{
+        padding-bottom:0;
+    }
+    .our-team .cards-div .card{
+        width: 100%;
+        padding: 3rem;
+    }
+}
+
+@media(max-width:690px) {
+    .about .about-content{
+        padding: 2rem;
+    }
+    
+}
+
+@media(max-width:520px) {
+    
+}
+
+/* =====Mobile devices===== */
+@media(max-width:480px) {
+      
+}
